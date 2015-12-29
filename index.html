@@ -11,11 +11,11 @@
         <script src="static/lib/zepto.min.js"></script>
         <script src="static/js/frozen.js"></script>
     </head>
-    <body ontouchstart>
+    <body ontouchstart style="">
         <header class="ui-header ui-header-positive ui-border-b">
-            <!-- <i class="ui-icon-return" onclick="history.back()"></i> -->
-            <h1>哈尔滨工业大学</h1>
-            <!-- <button class="ui-btn">回首页</button> -->
+            <i class="ui-icon-return" onclick="history.back()"></i>
+            <h1>我要查询</h1>
+            <button class="ui-btn">回首页</button>
         </header>
         <footer class="ui-footer ui-footer-btn">
             <ul class="ui-tiled ui-border-t">
@@ -29,103 +29,126 @@
                 <div class="demo-item">
                     <div class="demo-block">
                         <div class="ui-tab">
-                            <ul class="ui-tab-nav ui-border-b">
-                                <li class="current">首页</li>
-                                <li>学校概况</li>
-                                <li>国际合作</li>
-                            </ul>
-                            <ul class="ui-tab-content" style="width:300%">
-
-                                <li>
-                                    <section id="justify">
-                                        <div class="demo-item">
-                                            <div class="demo-block">  
-                                                <div>
-                                                    <ul  class="ui-justify ui-whitespace">
-                                                        <li><div class="test-img"></div><p>校园门户</p></li>
-                                                        <li><div class="test-img"></div><p>新闻网</p></li>
-                                                        <li><div class="test-img"></div><p>校内信息</p></li>
-                                                        <li><div class="test-img"></div><p>电邮系统</p></li>
-                                                        <li><div class="test-img"></div><p>图书馆</p></li>
-                                                        <li><div class="test-img"></div><p>办公系统</p></li>
-                                                        <li><div class="test-img"></div><p>个人主页</p></li>
-                                                        <li><div class="test-img"></div><p>校园地图</p></li>
-                                                        <li><div class="test-img"></div><p>校内站点</p></li>
-                                                        <li><div class="test-img"></div><p>服务指南</p></li>
-                                                        <li><div class="test-img"></div><p>院系部门</p></li>
-                                                        <li><div class="test-img"></div><p>招生就业</p></li>
-                                                    </ul>
-                                                </div>
+                            <li>
+                                <section id="justify">
+                                    <div class="demo-item">
+                                        <div class="demo-block">  
+                                            <!--start本科生 -->
+                                            <div>
+                                                <p class="demo-desc ui-border-b">本科生</p>
+                                                <ul  class="ui-justify ui-whitespace">
+                                                    <li>
+                                                        <div class="test-img">
+                                                            <i class="ui-icon-personal"></i>
+                                                            <div class="code">校院门户</div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="test-img">
+                                                            <i class="ui-icon-set"></i>
+                                                            <div class="code">校院门户</div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="test-img">
+                                                            <i class="ui-icon-share"></i>
+                                                            <div class="code">校院门户</div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="test-img">
+                                                            <i class="ui-icon-home"></i>
+                                                            <div class="code">校院门户</div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="test-img">
+                                                            <i class="ui-icon-liked"></i>
+                                                            <div class="code">校院门户</div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="test-img">
+                                                            <i class="ui-icon-like"></i>
+                                                            <div class="code">校院门户</div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="test-img">
+                                                            <i class="ui-icon-thumb"></i>
+                                                            <div class="code">校院门户</div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
                                             </div>
-                                        </div>
-                                    </section>
-                                </li>
-                                
-                                <li>
-                                    <section id="justify">
-                                        <div class="demo-item">
-                                            <div class="demo-block">  
-                                                <div>
-                                                    <ul  class="ui-justify ui-whitespace">
-                                                        <li><div class="test-img"></div><p>校园门户</p></li>
-                                                        <li><div class="test-img"></div><p>新闻网</p></li>
-                                                        <li><div class="test-img"></div><p>校内信息</p></li>
-                                                        <li><div class="test-img"></div><p>电邮系统</p></li>
-                                                        <li><div class="test-img"></div><p>图书馆</p></li>
-                                                        <li><div class="test-img"></div><p>办公系统</p></li>
-                                                        <li><div class="test-img"></div><p>个人主页</p></li>
-                                                        <li><div class="test-img"></div><p>校园地图</p></li>
-                                                        <li><div class="test-img"></div><p>校内站点</p></li>
-                                                        <li><div class="test-img"></div><p>服务指南</p></li>
-                                                        <li><div class="test-img"></div><p>院系部门</p></li>
-                                                        <li><div class="test-img"></div><p>招生就业</p></li>
-                                                    </ul>
-                                                </div>
+                                            <!--end本科生 -->
+                                            <!--研究生开始-->
+                                            <div>
+                                                <p class="demo-desc ui-border-b ui-border-t">研究生</p>
+                                                <ul  class="ui-justify ui-whitespace ui-border-b">
+                                                    <li>
+                                                        <div class="test-img">
+                                                            <i class="ui-icon-personal"></i>
+                                                            <div class="code">校院门户</div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="test-img">
+                                                            <i class="ui-icon-set"></i>
+                                                            <div class="code">校院门户</div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="test-img">
+                                                            <i class="ui-icon-share"></i>
+                                                            <div class="code">校院门户</div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="test-img">
+                                                            <i class="ui-icon-home"></i>
+                                                            <div class="code">校院门户</div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="test-img">
+                                                            <i class="ui-icon-liked"></i>
+                                                            <div class="code">校院门户</div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="test-img">
+                                                            <i class="ui-icon-like"></i>
+                                                            <div class="code">校院门户</div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="test-img">
+                                                            <i class="ui-icon-thumb"></i>
+                                                            <div class="code">校院门户</div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
                                             </div>
+                                            <!--edn 研究生-->
                                         </div>
-                                    </section>
-                                </li>
-
-                                <li>
-                                    <section id="justify">
-                                        <div class="demo-item">
-                                            <div class="demo-block">  
-                                                <div>
-                                                    <ul  class="ui-justify ui-whitespace">
-                                                        <li><div class="test-img"></div><p>校园门户</p></li>
-                                                        <li><div class="test-img"></div><p>新闻网</p></li>
-                                                        <li><div class="test-img"></div><p>校内信息</p></li>
-                                                        <li><div class="test-img"></div><p>电邮系统</p></li>
-                                                        <li><div class="test-img"></div><p>图书馆</p></li>
-                                                        <li><div class="test-img"></div><p>办公系统</p></li>
-                                                        <li><div class="test-img"></div><p>个人主页</p></li>
-                                                        <li><div class="test-img"></div><p>校园地图</p></li>
-                                                        <li><div class="test-img"></div><p>校内站点</p></li>
-                                                        <li><div class="test-img"></div><p>服务指南</p></li>
-                                                        <li><div class="test-img"></div><p>院系部门</p></li>
-                                                        <li><div class="test-img"></div><p>招生就业</p></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                </li>
-                                
-                            </ul>
+                                    </div>
+                                </section>
+                            </li>
                         </div>
                     </div>
                     <script class="demo-script">
-                    (function (){
-                        var tab = new fz.Scroll('.ui-tab', {
-                            role: 'tab',
-                            autoplay: true,
-                            interval: 3000
-                        });
-                        /* 滑动开始前 */
-                        tab.on('beforeScrollStart', function(fromIndex, toIndex) {
-                            console.log(fromIndex,toIndex);// from 为当前页，to 为下一页
-                        })
-                    })();
+                    // (function (){
+                    //     var tab = new fz.Scroll('.ui-tab', {
+                    //         role: 'tab',
+                    //         autoplay: true,
+                    //         interval: 3000
+                    //     });
+                    //     /* 滑动开始前 /
+                    //     tab.on('beforeScrollStart', function(fromIndex, toIndex) {
+                    //         console.log(fromIndex,toIndex);// from 为当前页，to 为下一页
+                    //     })
+                    // })();
                     </script>
                 </div>
             </section>

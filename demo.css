@@ -7,6 +7,7 @@ body>a{display: none;}
     padding: 10px;
     font-size: 16px;
     color: #7CAE23;
+    /*border-bottom: solid 1px #eee;*/
 }
 .demo-block{
     position: relative;
@@ -89,7 +90,7 @@ body>a{display: none;}
     min-height: 100px;
 }
 .test-img {
-    width: 120px;
-    height: 120px;
-    background: #ddd;
+    width: 80px;
+    height: 80px;
+    background: #fff;
 }
