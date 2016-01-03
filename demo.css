@@ -112,15 +112,18 @@ body>a{display: none;}
     margin: 0;
     background: #fff;
 }
+.ui-fy-ul-li-icon{
+    height: 38%;
+}
 /*分享模块*/
 .ui-fy-cube-likeshare{
     float: right;
-    display: flex;
+    display: inline-flex;
 }
 .ui-fy-f20{
     font-size: 20px;
 }
 .ui-fy-code-div{
-    height: 35%;
-    font-size: 20px;
+    height: 30%;
+    font-size: 16px;
 }
