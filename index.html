@@ -11,7 +11,7 @@
         <script src="static/lib/zepto.min.js"></script>
         <script src="static/js/frozen.js"></script>
     </head>
-    <body ontouchstart style="background:#f1f0f5;">
+    <body ontouchstart style="background:#f1f0f5;" oncontextmenu="window.event.returnValue=false">
         <header class="ui-header ui-header-positive ui-border-b">
             <i class="ui-icon-return" onclick="history.back()"></i>
             <h1>我要查询</h1>
@@ -38,7 +38,9 @@
                                                 <li class="ui-col ui-flex ui-flex-pack-center ui-fy-ul-li">
                                                     <div class="ui-cube-div">
                                                         <i class="ui-icon-personal"></i>
-                                                        <div class="code">校院门户</div>
+                                                        <div class="code ui-fy-code-div">
+                                                            校院门户
+                                                        </div>
                                                         <div class="ui-fy-cube-likeshare">
                                                             <i class="ui-icon-collected ui-fy-f20"></i>
                                                             <i class="ui-icon-comment ui-fy-f20"></i>
