@@ -333,13 +333,23 @@
         }
         //点赞
         $(".ui-icon-like").click(function () {
-            fyNotice('点赞成功！');
-            $(this).addClass('ui-icon-liked');//.removeClass('ui-icon-like');
+            if( $(this).attr('class').indexOf('ui-icon-liked')==-1){
+                fyNotice('点赞成功！');
+                $(this).addClass('ui-icon-liked');
+            }else{
+                fyNotice('取消成功！');
+                $(this).removeClass('ui-icon-liked');
+            }
         });
         //收藏
         $(".ui-icon-collect").click(function(){
-            fyNotice('收藏成功！');
-            $(this).addClass('ui-icon-collected');
+            if($(this).attr('class').indexOf('ui-icon-collected')==-1){
+                fyNotice('收藏成功！');
+                $(this).addClass('ui-icon-collected');
+            }else{
+                fyNotice('取消收藏成功！');
+                $(this).removeClass('ui-icon-collected');
+            }
         });
         //提示信息
         function fyNotice(msg){
