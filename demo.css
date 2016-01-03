@@ -105,9 +105,18 @@ body>a{display: none;}
 .ui-fy-ul{
     display: inline-block;
 }
+/*列表宽度*/
 .ui-fy-ul-li{
-    width: 25% !important;
+    width: 33.33% !important;
     float: left !important;
     margin: 0;
     background: #fff;
+}
+/*分享模块*/
+.ui-fy-cube-likeshare{
+    float: right;
+    display: flex;
+}
+.ui-fy-f20{
+    font-size: 20px;
 }
